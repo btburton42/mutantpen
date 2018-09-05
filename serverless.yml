@@ -13,10 +13,10 @@ functions:
     handler: index.nuxt
     events:
       - http: ANY /
-      - http: ANY/{proxy+}
+      - http: ANY /{proxy+}
 
 plugins:
-  - severless-apigw-binary
+  - serverless-apigw-binary
   - serverless-domain-manager
 
 custom:
