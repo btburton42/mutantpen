@@ -15,6 +15,10 @@ functions:
     events:
       - http: ANY /
       - http: ANY /{proxy+}
+  convert:
+    handler: lambdas/convert.handler
+    description: File Converter
+    name: convert__${self:custom.secrets.NODE_ENV}
 
 plugins:
   - serverless-apigw-binary
