@@ -10,4 +10,4 @@ secrets.json
 
 .nuxt
 
-.env
+*.env
