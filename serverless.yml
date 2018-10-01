@@ -1,4 +1,4 @@
-service: bookpress
+service: mutantpen
 
 provider:
   name: aws
