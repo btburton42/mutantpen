@@ -1,4 +1,3 @@
-// client/pages/dogs/index.vue
 <template>
 <div>
   <h1>Here you have all dogs.</h1>

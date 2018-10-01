@@ -1,4 +1,3 @@
-// client/layouts/default.vue
 <template>
   <div>
     <navbar/>

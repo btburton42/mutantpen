@@ -1,4 +1,3 @@
-// client/pages/dogs/_breed.vue
 <template>
 <div>
   <h2>Dog breed: {{ breed }}</h2>

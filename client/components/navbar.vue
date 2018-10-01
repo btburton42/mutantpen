@@ -1,4 +1,3 @@
-// client/components/navbar.vue
 <template>
   <nav class="nav">
     <ul>

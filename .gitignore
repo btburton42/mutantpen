@@ -9,3 +9,5 @@ jspm_packages
 secrets.json
 
 .nuxt
+
+.env
