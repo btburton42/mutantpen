@@ -18,7 +18,7 @@ module.exports = {
     ]
   },
   build: {
-    vendor: ['axios'],
+    vendor: ['axios', 'auth0-js/build/auth0'],
     publicPath: `/${require('./secrets.json').NODE_ENV}/_nuxt/` // <= add the path to the cached files
   },
   srcDir: 'client/',
