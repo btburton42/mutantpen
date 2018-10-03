@@ -1,4 +1,4 @@
-const converter = require('../converter');
+const converter = require('./../converter');
 
 describe('test', () => {
   it('should return a valid message', () => {
